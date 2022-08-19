@@ -62,7 +62,7 @@
                     <v-row justify="center">
                       <v-col>
                         <p class="text-h5">Looking for the LDN build?</p>
-                        <p class="text">Head over to our <a href="https://www.patreon.com/posts/introducing-ldn2-45268370" rel="noopener" target="_blank">Patreon</a> for more info & FREE download</p>
+                        <p class="text">Head over to our <a href="https://www.patreon.com/posts/ldn-2-5-vulkan-70757628" rel="noopener" target="_blank">Patreon</a> for more info & FREE download</p>
                       </v-col>
                     </v-row>
                     <v-row justify="center">
