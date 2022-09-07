@@ -3,6 +3,7 @@ import { useI18n } from "vue-i18n";
 
 import BaseNavigation from "@/common/components/navigations/BaseNavigation.vue";
 import SocialIconList from "@/modules/SocialIconList.vue";
+import LanguageSelector from "@/modules/LanguageSelector.vue";
 import { navigations } from "@/common/constants/navigation";
 
 const { t } = useI18n();
@@ -40,6 +41,8 @@ const { t } = useI18n();
             <div class="flex items-center justify-center space-x-3">
               <SocialIconList />
             </div>
+
+            <LanguageSelector />
           </div>
         </div>
       </header>

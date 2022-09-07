@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import BaseNavigation from "@/common/components/navigations/BaseNavigation.vue";
 import SocialIconList from "@/modules/SocialIconList.vue";
+import LanguageSelector from "@/modules/LanguageSelector.vue";
 import { navigations } from "@/common/constants/navigation";
 </script>
 
@@ -21,6 +22,8 @@ import { navigations } from "@/common/constants/navigation";
 
             <div class="flex items-center justify-center space-x-3">
               <SocialIconList />
+
+              <LanguageSelector />
             </div>
           </div>
         </div>
