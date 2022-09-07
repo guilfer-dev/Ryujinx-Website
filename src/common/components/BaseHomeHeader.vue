@@ -55,14 +55,14 @@ const { t } = useI18n();
           tag="h1"
           class="text-3xl md:text-4xl font-extrabold mb-4 text-white"
         >
-          <span class="text-red-500">{{ t("header.title2") }}</span>
+          <span class="text-red-500">Nintendo Switch</span>
         </i18n-t>
         <i18n-t
           keypath="header.description"
           tag="h2"
           class="text-lg md:text-xl md:leading-relaxed font-medium text-gray-400 lg:w-2/3 mx-auto"
         >
-          <span class="text-red-50">{{ t("header.author") }}</span>
+          <span class="text-red-50">gdkchan</span>
         </i18n-t>
         <div
           class="flex flex-col sm:flex-row sm:items-center sm:justify-center space-y-2 sm:space-y-0 sm:space-x-2 pt-10 pb-16"
