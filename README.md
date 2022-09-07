@@ -29,7 +29,7 @@ The complete list of changes is available [here](CHANGELOG.md)
 
 Currently, we need you to help us translate the website.
 Future languages to be added:
-- French
+
 - German
 - Dutch
 - Portuguese
@@ -69,7 +69,8 @@ npm run build
 
 This repo use Semantic Versioning (SemVer) : https://semver.org/
 
-Maintainer : 
+Maintainer :
+
 - Don't forget to update the [CHANGELOG.md](CHANGELOG.md) file after several changes.
 - Update the translation file within Crowdin after each PR.
 
@@ -86,10 +87,11 @@ If you'd like to support the project financially, Ryujinx has an active Patreon 
 </a>
 
 All developers working on the project do so in their free time, but the project has several expenses:
-* Hackable Nintendo Switch consoles to reverse-engineer the hardware
-* Additional computer hardware for testing purposes (e.g. GPUs to diagnose graphical bugs, etc.)
-* Licenses for various software development tools (e.g. Jetbrains, IDA)
-* Web hosting and infrastructure maintenance (e.g. LDN servers)
+
+- Hackable Nintendo Switch consoles to reverse-engineer the hardware
+- Additional computer hardware for testing purposes (e.g. GPUs to diagnose graphical bugs, etc.)
+- Licenses for various software development tools (e.g. Jetbrains, IDA)
+- Web hosting and infrastructure maintenance (e.g. LDN servers)
 
 All funds received through Patreon are considered a donation to support the project. Patrons receive early access to progress reports and exclusive access to developer interviews.
 
