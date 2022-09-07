@@ -47,7 +47,7 @@ To build the website you need:
 
 - [nodejs](https://nodejs.org/en/) v16.x
 
-To start working on the Daemon, you can build the main branch:
+To start working on the website, you can build the main branch:
 
 1. Clone the repo: `https://github.com/Ryujinx/Ryujinx-Website.git` or fork it and cd into.
 2. Restore project's dependencies : `npm install`
