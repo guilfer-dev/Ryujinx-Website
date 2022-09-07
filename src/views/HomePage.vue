@@ -130,8 +130,8 @@ const DISCORD_URL = import.meta.env.VITE_DISCORD_URL;
                     tag="p"
                     class="leading-relaxed text-gray-600"
                   >
-                    <template v-slot:titles>3 600</template>
-                    <template v-slot:playable>2 700</template>
+                    <template v-slot:number_titles>3 600</template>
+                    <template v-slot:number_playable>2 700</template>
                   </i18n-t>
                 </div>
                 <div
