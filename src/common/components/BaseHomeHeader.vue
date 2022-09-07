@@ -16,7 +16,7 @@ const { t } = useI18n();
   >
     <div class="bg-gray-800 bg-opacity-90 backdrop-filter">
       <!-- Header -->
-      <header id="page-header" class="flex flex-none items-center py-10">
+      <header id="page-header" class="flex flex-none items-center py-10 z-1">
         <div
           class="flex flex-col text-center md:flex-row md:items-center md:justify-between space-y-6 md:space-y-0 container xl:max-w-7xl mx-auto px-4 lg:px-10"
         >
