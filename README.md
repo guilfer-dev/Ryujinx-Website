@@ -25,7 +25,7 @@ The complete list of changes is available [here](CHANGELOG.md)
 
 ## Contribute
 
-### Translation 
+### Translation
 
 Currently, we need you to help us translate the website.
 Future languages to be added:
@@ -35,7 +35,7 @@ Future languages to be added:
 - Portuguese
 - Spanish
 
-Follow this link to participate in the translation (via Crowdin): https://crwd.in/ryujinx-website
+Follow this link to participate in the translation (via Crowdin): https://crwd.in/ryujinx-website-ryujinxorg
 
 ### Development
 
