@@ -1,0 +1,22 @@
+{
+  "title1": "Latest {0}",
+  "title2": "Download",
+  "subTitle": "Don't forget to consult {0} after installation",
+  "startupGuide": "the start-up guide",
+  "download": "Download",
+  "notSupported": "Currently not supported",
+  "supportPlanned": "Support planned",
+  "supportWindows": "For Windows 10 & 11",
+  "supportLinux": "For the most common Linux distros",
+  "buildInformation": "Build information",
+  "buildRelease": "This build was released on {0}",
+  "assets": "assets",
+  "downloads": "downloads",
+  "tag": "Tag",
+  "manualDownload": "Manual download",
+  "olderBuilds": "Older builds",
+  "ldnBuildTitle": "Looking for the {0}?",
+  "ldnBuild": "LDN build",
+  "ldnBuildDescription": "Head over to our Patreon for more info & FREE download",
+  "learnMore": "Learn More"
+}
