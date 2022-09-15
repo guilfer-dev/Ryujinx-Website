@@ -14,8 +14,8 @@
         <img src="https://img.shields.io/discord/410208534861447168?color=5865F2&label=Ryujinx&logo=discord&logoColor=white"
             alt="Discord">
     </a>
-    <a title="Crowdin" target="_blank" href="https://crowdin.com/project/ryujinx-website">
-        <img src="https://badges.crowdin.net/ryujinx-website/localized.svg" alt="translation status">
+    <a title="Crowdin" target="_blank" href="https://crowdin.com/project/ryujinx-website-ryujinxorg">
+        <img src="https://badges.crowdin.net/ryujinx-website-ryujinxorg/localized.svg" alt="translation status">
     </a>
 </p>
 
@@ -25,7 +25,7 @@ The complete list of changes is available [here](CHANGELOG.md)
 
 ## Contribute
 
-### Translation 
+### Translation
 
 Currently, we need you to help us translate the website.
 Future languages to be added:
