@@ -17,6 +17,8 @@ const OLDER_BUILD_URL = import.meta.env.VITE_OLDER_BUILDS_URL as string;
 const { t } = useI18n();
 const isLoading = ref(true);
 const downloadRelease = ref<DownloadRelease>({} as DownloadRelease);
+const downloadMacOSRelease = ref<DownloadRelease>({} as DownloadRelease);
+const macosBuildUrl = ref("");
 const linuxBuildUrl = ref("");
 const windowBuildUrl = ref("");
 
@@ -37,6 +39,7 @@ const fetchBuilds = async () => {
     const result = await axios.get<DownloadRelease>(
       import.meta.env.VITE_RELEASE_URL
     );
+
     downloadRelease.value = result.data;
 
     downloadRelease.value?.assets.forEach((asset) => {
@@ -51,6 +54,22 @@ const fetchBuilds = async () => {
   } catch (err) {
     console.error(err);
   }
+
+  try {
+    const result = await axios.get<DownloadRelease>(
+      import.meta.env.VITE_RELEASE_MACOS_URL
+    );
+
+    downloadMacOSRelease.value = result.data;
+    downloadMacOSRelease.value?.assets.forEach((asset) => {
+      if (asset.name.toLowerCase().startsWith("ryujinx")) {
+        if (asset.name.endsWith(".app.tar.gz")) {
+          macosBuildUrl.value = asset.browser_download_url;
+        }
+      }
+    });
+  } catch (err) {}
+
   isLoading.value = false;
 };
 </script>
@@ -153,29 +172,33 @@ const fetchBuilds = async () => {
           </a>
 
           <!-- Mac OS -->
-          <div
-            class="group relative p-4 lg:p-6 bg-white rounded-xl transition duration-150 shadow-md shadow-gray-100 opacity-60"
+          <a
+            :href="macosBuildUrl"
+            class="group relative p-4 lg:p-6 bg-white rounded-xl transition duration-150 shadow-md shadow-gray-100"
           >
             <div
-              class="absolute inset-0 bg-white rounded-xl shadow-md shadow-gray-200 transition duration-100 scale-100 opacity-0"
+              class="absolute inset-0 bg-white rounded-xl shadow-md shadow-gray-200 transition duration-100 scale-100 opacity-0 group-hover:opacity-100 group-hover:scale-105 group-active:scale-100 group-active:opacity-0"
             ></div>
             <div class="relative text-center">
               <div
                 class="text-xs uppercase text-gray-400 font-semibold tracking-wider mb-4"
               >
-                {{ t("views.download.supportPlanned") }}
+                {{ downloadMacOSRelease.tag_name }}
               </div>
               <div class="relative w-12 mb-8 text-indigo-500 mx-auto">
                 <img alt="macos logo" src="/assets/images/icons/macos.png" />
               </div>
               <h4 class="text-lg font-semibold mb-1 text-gray-900">macOS</h4>
+              <p class="leading-relaxed text-gray-500 text-sm font-medium">
+                {{ t("views.download.supportMacOS") }}
+              </p>
               <div
-                class="flex justify-center items-center space-x-1 mt-4 pt-4 text-sm font-medium text-gray-500 border-t border-gray-100"
+                class="flex justify-center items-center space-x-1 mt-4 pt-4 text-sm font-medium text-gray-500 border-t border-gray-100 group-hover:text-sky-500"
               >
-                <span>{{ t("views.download.notSupported") }}</span>
+                <span>{{ t("views.download.download") }}</span>
               </div>
             </div>
-          </div>
+          </a>
         </div>
 
         <!-- LDN Build -->
