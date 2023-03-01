@@ -20,6 +20,8 @@ stdenv.mkDerivation {
     export PATH="${nodeDependencies}/bin:$PATH"
 
     npm run build
-    cp -r dist $out/
+  '';
+  installPhase = ''
+  cp -r dist $out/
   '';
 }
