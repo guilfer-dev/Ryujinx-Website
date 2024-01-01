@@ -16,7 +16,7 @@
 
             npmBuildScript = "build";
 
-            npmDepsHash = "sha256-Q0tbsEFeNaqlyt+f8bGsAG/r8R/Y80xXmiXA55XMyec=";
+            npmDepsHash = "sha256-VhZPzJq2V3zPYU3XYwvn8B77wl1bcgmYEo+/1/bThuw=";
 
             installPhase = ''
               cp -r dist $out/
