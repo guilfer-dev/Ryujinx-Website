@@ -50,9 +50,7 @@ const fetchBuilds = async () => {
           linuxIntelBuildUrl.value = asset.browser_download_url;
         } else if (asset.name.endsWith("linux_arm64.tar.gz")) {
           linuxArm64BuildUrl.value = asset.browser_download_url;
-        }
-      } else if (asset.name.startsWith("test-ava-ryujinx")) {
-        if (asset.name.endsWith("macos_universal.app.tar.gz")) {
+        } else if (asset.name.endsWith("macos_universal.app.tar.gz")) {
           macosBuildUrl.value = asset.browser_download_url;
         }
       }
