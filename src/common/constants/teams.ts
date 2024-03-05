@@ -14,12 +14,6 @@ export const teamMembers: Member[] = [
     title: "Developer",
   },
   {
-    name: "marysaka",
-    githubName: "marysaka",
-    avatar: "https://avatars3.githubusercontent.com/u/1760003?s=144&v=4",
-    title: "Developer",
-  },
-  {
     name: "riperiperi",
     githubName: "riperiperi",
     avatar: "https://avatars3.githubusercontent.com/u/6294155?s=144&v=4",
@@ -52,7 +46,7 @@ export const teamMembers: Member[] = [
   {
     name: "Yoshiyes",
     githubName: "Yoshiyes",
-    avatar: "https://avatars.githubusercontent.com/u/20050570?s=144&v=4\"",
+    avatar: "https://avatars.githubusercontent.com/u/20050570?s=144&v=4",
     title: "Web Designer / Developer",
   },
 ];
