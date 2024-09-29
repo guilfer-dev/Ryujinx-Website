@@ -12,6 +12,8 @@
 - Update translation link & badge
 - Fix indention of nginx conf
 - Update EN translation
+- Add French language support
+- Add language selector
 
 ## v3.1.0 (09/09/2022)
 

@@ -29,7 +29,6 @@ The complete list of changes is available [here](CHANGELOG.md)
 
 Currently, we need you to help us translate the website.
 Future languages to be added:
-
 - German
 - Dutch
 - Portuguese
