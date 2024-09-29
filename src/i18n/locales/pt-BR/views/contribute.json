@@ -1,12 +1,12 @@
 {
-  "title1": "Help us to build the {0}",
-  "title2": "best Switch emulator",
-  "subTitle": "Created by gdkchan and actively developed by a passionate team.",
-  "titleContribute": "How may I contribute?",
-  "areaDevTitle": "Helping With Development",
-  "areaDevDescription": "If you have experience in C#, Switch Homebrew, graphic/website design, software quality assurance or beta testing, Discord management, or any other skills that could be useful in helping the Ryujinx project, please contact us at our Discord server.",
-  "joinDiscord": "Join our Discord",
-  "becomePatron": "Become a Patron",
-  "areaDonationTitle": "Helping With Donations",
-  "areaDonationDescription": "Not a developer? There are other ways to support us! Monetary donations are by no means required; however, they help offset the cost of necessary hardware, development software licenses, server costs, and the like. In return, Patreon supporters get some special perks(for example, access to a patreon-only support channel on our Discord)."
+	"title1": "Nos ajude a desenvolver o {0}",
+	"title2": "melhor emulador de Switch",
+	"subTitle": "Criado por gdkchan e ativamente desenvolvido por um time apaixonado.",
+	"titleContribute": "Como posso contribuir?",
+	"areaDevTitle": "Ajudando Com Desenvolvimento",
+	"areaDevDescription": "Se você tem experiencia em C#, Switch Homebrew, design gráfico ou web design, garantia de qualidade de software ou \"beta testing\", gestão de Discord, ou qualquer outra habilidade que possa ser util em ajudar o projeto Ryujinx, por favor, entre em contato conosco em nosso servidor no Discord.",
+	"joinDiscord": "Faça parte da nossa comunidade no Discord",
+	"becomePatron": "Torne-se um Patron",
+	"areaDonationTitle": "Ajudando com Doações",
+	"areaDonationDescription": "Não é um desenvolvedor? Há outras maneiras de nos dar ajudar! Doações em dinheiro não são de maneira alguma obrigatórias; no entanto, ela nos ajudam a compensar os custos necessários quanto à hardware, licenças de desenvolvimento de software, custos de servidores e custos similares. Em retorno, apoiadores do nosso Patreon possuem algumas vantagens especiais (por exemplo, acesso ao nosso canal exclusivo para \"patreons\" no Discord)."
 }
